@@ -23,6 +23,10 @@ class FactoryCars {
             return Vesta(color: color, hourseCount: hourseCount, maxSpeed: maxSpeed, priceCount: priceCount)
         case .xray:
             return XRay(color: color, hourseCount: hourseCount, maxSpeed: maxSpeed, priceCount: priceCount)
+        case .mersedes:
+            return Mersedes(color: color, hourseCount: hourseCount, maxSpeed: maxSpeed, priceCount: priceCount)
+        case .audi:
+            return Audi(color: color, hourseCount: hourseCount, maxSpeed: maxSpeed, priceCount: priceCount)
         }
     }
     

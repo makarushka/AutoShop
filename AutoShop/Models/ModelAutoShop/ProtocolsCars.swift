@@ -31,6 +31,8 @@ enum Model: String {
     case priora = "Приора"
     case xray = "XRay"
     case vesta = "Веста"
+    case mersedes = "Мерседес"
+    case audi = "Ауди"
 }
 
 
