@@ -17,19 +17,6 @@
 		5B4398DB21DA183D009B3E72 /* ProtocolCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B621DA183D009B3E72 /* ProtocolCategory.swift */; };
 		5B4398DC21DA183D009B3E72 /* AutoShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B821DA183D009B3E72 /* AutoShop.swift */; };
 		5B4398DD21DA183D009B3E72 /* Repairt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B921DA183D009B3E72 /* Repairt.swift */; };
-		5B4398DE21DA183D009B3E72 /* ProtocolsRepairParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398BB21DA183D009B3E72 /* ProtocolsRepairParts.swift */; };
-		5B4398DF21DA183D009B3E72 /* EngineVesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398BD21DA183D009B3E72 /* EngineVesta.swift */; };
-		5B4398E021DA183D009B3E72 /* EngineXRay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398BE21DA183D009B3E72 /* EngineXRay.swift */; };
-		5B4398E121DA183D009B3E72 /* EnginePriora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398BF21DA183D009B3E72 /* EnginePriora.swift */; };
-		5B4398E221DA183D009B3E72 /* EngineKalina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398C021DA183D009B3E72 /* EngineKalina.swift */; };
-		5B4398E321DA183D009B3E72 /* CreatorRepairXRay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398C221DA183D009B3E72 /* CreatorRepairXRay.swift */; };
-		5B4398E421DA183D009B3E72 /* CreatorRepairVesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398C321DA183D009B3E72 /* CreatorRepairVesta.swift */; };
-		5B4398E521DA183D009B3E72 /* CreatorRepairKalina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398C421DA183D009B3E72 /* CreatorRepairKalina.swift */; };
-		5B4398E621DA183D009B3E72 /* CreatorRepairPriora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398C521DA183D009B3E72 /* CreatorRepairPriora.swift */; };
-		5B4398E721DA183D009B3E72 /* TransKalina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398C721DA183D009B3E72 /* TransKalina.swift */; };
-		5B4398E821DA183D009B3E72 /* TransPriora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398C821DA183D009B3E72 /* TransPriora.swift */; };
-		5B4398E921DA183D009B3E72 /* TransXRay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398C921DA183D009B3E72 /* TransXRay.swift */; };
-		5B4398EA21DA183D009B3E72 /* TransVesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398CA21DA183D009B3E72 /* TransVesta.swift */; };
 		5B4398EB21DA183D009B3E72 /* ProtocolsCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398CC21DA183D009B3E72 /* ProtocolsCars.swift */; };
 		5B4398EC21DA183D009B3E72 /* Priora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398CD21DA183D009B3E72 /* Priora.swift */; };
 		5B4398ED21DA183D009B3E72 /* Kalina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398CE21DA183D009B3E72 /* Kalina.swift */; };
@@ -72,19 +59,6 @@
 		5B4398B621DA183D009B3E72 /* ProtocolCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolCategory.swift; sourceTree = "<group>"; };
 		5B4398B821DA183D009B3E72 /* AutoShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoShop.swift; sourceTree = "<group>"; };
 		5B4398B921DA183D009B3E72 /* Repairt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repairt.swift; sourceTree = "<group>"; };
-		5B4398BB21DA183D009B3E72 /* ProtocolsRepairParts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolsRepairParts.swift; sourceTree = "<group>"; };
-		5B4398BD21DA183D009B3E72 /* EngineVesta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineVesta.swift; sourceTree = "<group>"; };
-		5B4398BE21DA183D009B3E72 /* EngineXRay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineXRay.swift; sourceTree = "<group>"; };
-		5B4398BF21DA183D009B3E72 /* EnginePriora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnginePriora.swift; sourceTree = "<group>"; };
-		5B4398C021DA183D009B3E72 /* EngineKalina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineKalina.swift; sourceTree = "<group>"; };
-		5B4398C221DA183D009B3E72 /* CreatorRepairXRay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorRepairXRay.swift; sourceTree = "<group>"; };
-		5B4398C321DA183D009B3E72 /* CreatorRepairVesta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorRepairVesta.swift; sourceTree = "<group>"; };
-		5B4398C421DA183D009B3E72 /* CreatorRepairKalina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorRepairKalina.swift; sourceTree = "<group>"; };
-		5B4398C521DA183D009B3E72 /* CreatorRepairPriora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorRepairPriora.swift; sourceTree = "<group>"; };
-		5B4398C721DA183D009B3E72 /* TransKalina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransKalina.swift; sourceTree = "<group>"; };
-		5B4398C821DA183D009B3E72 /* TransPriora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransPriora.swift; sourceTree = "<group>"; };
-		5B4398C921DA183D009B3E72 /* TransXRay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransXRay.swift; sourceTree = "<group>"; };
-		5B4398CA21DA183D009B3E72 /* TransVesta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransVesta.swift; sourceTree = "<group>"; };
 		5B4398CC21DA183D009B3E72 /* ProtocolsCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolsCars.swift; sourceTree = "<group>"; };
 		5B4398CD21DA183D009B3E72 /* Priora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priora.swift; sourceTree = "<group>"; };
 		5B4398CE21DA183D009B3E72 /* Kalina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalina.swift; sourceTree = "<group>"; };
@@ -170,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				5B4398B521DA183D009B3E72 /* ModelCategories */,
-				5B4398BA21DA183D009B3E72 /* ModelRepairParts */,
 				5B4398CB21DA183D009B3E72 /* ModelAutoShop */,
 				5B4398D221DA183D009B3E72 /* AutoModel */,
 			);
@@ -193,50 +166,6 @@
 				5B4398B921DA183D009B3E72 /* Repairt.swift */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		5B4398BA21DA183D009B3E72 /* ModelRepairParts */ = {
-			isa = PBXGroup;
-			children = (
-				5B4398BB21DA183D009B3E72 /* ProtocolsRepairParts.swift */,
-				5B4398BC21DA183D009B3E72 /* EngineModel */,
-				5B4398C121DA183D009B3E72 /* AbstractCreator */,
-				5B4398C621DA183D009B3E72 /* TransmissionsModel */,
-			);
-			path = ModelRepairParts;
-			sourceTree = "<group>";
-		};
-		5B4398BC21DA183D009B3E72 /* EngineModel */ = {
-			isa = PBXGroup;
-			children = (
-				5B4398BD21DA183D009B3E72 /* EngineVesta.swift */,
-				5B4398BE21DA183D009B3E72 /* EngineXRay.swift */,
-				5B4398BF21DA183D009B3E72 /* EnginePriora.swift */,
-				5B4398C021DA183D009B3E72 /* EngineKalina.swift */,
-			);
-			path = EngineModel;
-			sourceTree = "<group>";
-		};
-		5B4398C121DA183D009B3E72 /* AbstractCreator */ = {
-			isa = PBXGroup;
-			children = (
-				5B4398C221DA183D009B3E72 /* CreatorRepairXRay.swift */,
-				5B4398C321DA183D009B3E72 /* CreatorRepairVesta.swift */,
-				5B4398C421DA183D009B3E72 /* CreatorRepairKalina.swift */,
-				5B4398C521DA183D009B3E72 /* CreatorRepairPriora.swift */,
-			);
-			path = AbstractCreator;
-			sourceTree = "<group>";
-		};
-		5B4398C621DA183D009B3E72 /* TransmissionsModel */ = {
-			isa = PBXGroup;
-			children = (
-				5B4398C721DA183D009B3E72 /* TransKalina.swift */,
-				5B4398C821DA183D009B3E72 /* TransPriora.swift */,
-				5B4398C921DA183D009B3E72 /* TransXRay.swift */,
-				5B4398CA21DA183D009B3E72 /* TransVesta.swift */,
-			);
-			path = TransmissionsModel;
 			sourceTree = "<group>";
 		};
 		5B4398CB21DA183D009B3E72 /* ModelAutoShop */ = {
@@ -453,35 +382,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4398E621DA183D009B3E72 /* CreatorRepairPriora.swift in Sources */,
 				5B4398DA21DA183D009B3E72 /* DataSource.swift in Sources */,
 				5B4398EC21DA183D009B3E72 /* Priora.swift in Sources */,
 				5B4398DB21DA183D009B3E72 /* ProtocolCategory.swift in Sources */,
-				5B4398E421DA183D009B3E72 /* CreatorRepairVesta.swift in Sources */,
 				5B4398EB21DA183D009B3E72 /* ProtocolsCars.swift in Sources */,
-				5B4398E821DA183D009B3E72 /* TransPriora.swift in Sources */,
 				5B4398D821DA183D009B3E72 /* ItemsCell.swift in Sources */,
-				5B4398E221DA183D009B3E72 /* EngineKalina.swift in Sources */,
 				5B4398F021DA183D009B3E72 /* FactoryCars.swift in Sources */,
 				5B4398EF21DA183D009B3E72 /* Vesta.swift in Sources */,
 				5B4398D421DA183D009B3E72 /* ViewController.swift in Sources */,
 				5B4398D921DA183D009B3E72 /* MainConfig.swift in Sources */,
-				5B4398EA21DA183D009B3E72 /* TransVesta.swift in Sources */,
-				5B4398E721DA183D009B3E72 /* TransKalina.swift in Sources */,
-				5B4398E521DA183D009B3E72 /* CreatorRepairKalina.swift in Sources */,
 				5BB2853621D82E2200D84D97 /* AppDelegate.swift in Sources */,
 				5B4398ED21DA183D009B3E72 /* Kalina.swift in Sources */,
-				5B4398E921DA183D009B3E72 /* TransXRay.swift in Sources */,
 				5B4398EE21DA183D009B3E72 /* XRay.swift in Sources */,
-				5B4398E121DA183D009B3E72 /* EnginePriora.swift in Sources */,
 				5B4398D521DA183D009B3E72 /* AllDataCategory.swift in Sources */,
-				5B4398E321DA183D009B3E72 /* CreatorRepairXRay.swift in Sources */,
-				5B4398E021DA183D009B3E72 /* EngineXRay.swift in Sources */,
 				5B4398DD21DA183D009B3E72 /* Repairt.swift in Sources */,
 				5B4398DC21DA183D009B3E72 /* AutoShop.swift in Sources */,
-				5B4398DF21DA183D009B3E72 /* EngineVesta.swift in Sources */,
 				5B4398D621DA183D009B3E72 /* TableCategoryVC.swift in Sources */,
-				5B4398DE21DA183D009B3E72 /* ProtocolsRepairParts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
