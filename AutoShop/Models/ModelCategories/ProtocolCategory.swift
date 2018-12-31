@@ -17,6 +17,6 @@ protocol Category {
 }
 
 enum Type: String {
-    case cars = "Автомагазин"
-    case repairs = "Запчасти"
+    case russianCars = "Машины из России"
+    case germanCars = "Машины из Германии"
 }

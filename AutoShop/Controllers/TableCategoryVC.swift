@@ -23,13 +23,13 @@ extension TableCategoryVC {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return MainConfig.shared.allCategories.count
+        return DataSource.shared.allCaregory.count
     }
     
     
      override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
      let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-     let allCategory = MainConfig.shared.allCategories
+     let allCategory = DataSource.shared.allCaregory
      cell.textLabel?.text = allCategory[indexPath.row].name
      return cell
      }
@@ -39,7 +39,7 @@ extension TableCategoryVC {
         let indexPath = self.tableView.indexPathForSelectedRow
         if segue.identifier == "data" {
             if let vc = segue.destination as? AllDataCategory {
-            vc.typeViewer = MainConfig.shared.allCategories[indexPath!.row].typeCategory
+                vc.typeViewer = DataSource.shared.allCaregory[(indexPath?.row)!].typeCategory
             }
         }
     }

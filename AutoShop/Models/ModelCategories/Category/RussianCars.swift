@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-class AutoShop: Category {
+class RussianCars: Category {
     
-    static var shared = AutoShop()
+    static var shared = RussianCars()
     
-    var name: String = "Автосалон"
+    var name: String = "Машины из России"
     
-    var typeCategory: Type = .cars
+    var typeCategory: Type = .russianCars
     var image: UIImage = UIImage(named: "AutoShop") ?? UIImage(named: "noImage")!
     
     private init() {}

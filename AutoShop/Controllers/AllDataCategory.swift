@@ -11,13 +11,14 @@ import UIKit
 class AllDataCategory: UICollectionViewController {
 
     var typeViewer: Type?
-    
+    var dataFirst = [Cars]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.dataFirst = DataSource.shared.allCars.filter() {$0.category == self.typeViewer}
 
         let nib = UINib(nibName: "ItemsCell", bundle: Bundle.main)
         self.collectionView.register(nib, forCellWithReuseIdentifier: "cell")
-        
+        print(self.typeViewer)
         createUI()
     }
     
@@ -26,34 +27,18 @@ class AllDataCategory: UICollectionViewController {
         
     }
     
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-    // MARK: UICollectionViewDataSource
-
-
-
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
-        return 1
+        return self.dataFirst.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? ItemsCell
     
-        // Configure the cell
+        cell?.avatarImage.image = self.dataFirst[indexPath.row].avatarImage
+        cell?.textLabel.text = self.dataFirst[indexPath.row].name
+        cell?.priceCount.text = String(self.dataFirst[indexPath.row].priceCount)
     
-        return cell
+        return cell!
     }
 
 }

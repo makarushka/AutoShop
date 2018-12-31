@@ -15,8 +15,7 @@
 		5B4398D921DA183D009B3E72 /* MainConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B221DA183C009B3E72 /* MainConfig.swift */; };
 		5B4398DA21DA183D009B3E72 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B321DA183C009B3E72 /* DataSource.swift */; };
 		5B4398DB21DA183D009B3E72 /* ProtocolCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B621DA183D009B3E72 /* ProtocolCategory.swift */; };
-		5B4398DC21DA183D009B3E72 /* AutoShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B821DA183D009B3E72 /* AutoShop.swift */; };
-		5B4398DD21DA183D009B3E72 /* Repairt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B921DA183D009B3E72 /* Repairt.swift */; };
+		5B4398DC21DA183D009B3E72 /* RussianCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398B821DA183D009B3E72 /* RussianCars.swift */; };
 		5B4398EB21DA183D009B3E72 /* ProtocolsCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398CC21DA183D009B3E72 /* ProtocolsCars.swift */; };
 		5B4398EC21DA183D009B3E72 /* Priora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398CD21DA183D009B3E72 /* Priora.swift */; };
 		5B4398ED21DA183D009B3E72 /* Kalina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398CE21DA183D009B3E72 /* Kalina.swift */; };
@@ -25,6 +24,7 @@
 		5B4398F021DA183D009B3E72 /* FactoryCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398D121DA183D009B3E72 /* FactoryCars.swift */; };
 		5B4398F521DA48FC009B3E72 /* Mersedes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398F321DA48FC009B3E72 /* Mersedes.swift */; };
 		5B4398F621DA48FC009B3E72 /* Audi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398F421DA48FC009B3E72 /* Audi.swift */; };
+		5B4398FA21DA56EA009B3E72 /* GermanCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398F921DA56EA009B3E72 /* GermanCars.swift */; };
 		5BB2853621D82E2200D84D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB2853521D82E2200D84D97 /* AppDelegate.swift */; };
 		5BB2853B21D82E2200D84D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853921D82E2200D84D97 /* Main.storyboard */; };
 		5BB2853D21D82E2400D84D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853C21D82E2400D84D97 /* Assets.xcassets */; };
@@ -59,8 +59,7 @@
 		5B4398B221DA183C009B3E72 /* MainConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainConfig.swift; sourceTree = "<group>"; };
 		5B4398B321DA183C009B3E72 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		5B4398B621DA183D009B3E72 /* ProtocolCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolCategory.swift; sourceTree = "<group>"; };
-		5B4398B821DA183D009B3E72 /* AutoShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoShop.swift; sourceTree = "<group>"; };
-		5B4398B921DA183D009B3E72 /* Repairt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repairt.swift; sourceTree = "<group>"; };
+		5B4398B821DA183D009B3E72 /* RussianCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RussianCars.swift; sourceTree = "<group>"; };
 		5B4398CC21DA183D009B3E72 /* ProtocolsCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolsCars.swift; sourceTree = "<group>"; };
 		5B4398CD21DA183D009B3E72 /* Priora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priora.swift; sourceTree = "<group>"; };
 		5B4398CE21DA183D009B3E72 /* Kalina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalina.swift; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		5B4398D121DA183D009B3E72 /* FactoryCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryCars.swift; sourceTree = "<group>"; };
 		5B4398F321DA48FC009B3E72 /* Mersedes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mersedes.swift; sourceTree = "<group>"; };
 		5B4398F421DA48FC009B3E72 /* Audi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audi.swift; sourceTree = "<group>"; };
+		5B4398F921DA56EA009B3E72 /* GermanCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GermanCars.swift; sourceTree = "<group>"; };
 		5BB2853221D82E2200D84D97 /* AutoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB2853521D82E2200D84D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB2853A21D82E2200D84D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				5B4398AA21DA183C009B3E72 /* ViewController.swift */,
-				5B4398AB21DA183C009B3E72 /* AllDataCategory.swift */,
 				5B4398AC21DA183C009B3E72 /* TableCategoryVC.swift */,
+				5B4398AB21DA183C009B3E72 /* AllDataCategory.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -149,7 +149,6 @@
 			children = (
 				5B4398B521DA183D009B3E72 /* ModelCategories */,
 				5B4398CB21DA183D009B3E72 /* ModelAutoShop */,
-				5B4398D221DA183D009B3E72 /* AutoModel */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,8 +165,8 @@
 		5B4398B721DA183D009B3E72 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				5B4398B821DA183D009B3E72 /* AutoShop.swift */,
-				5B4398B921DA183D009B3E72 /* Repairt.swift */,
+				5B4398B821DA183D009B3E72 /* RussianCars.swift */,
+				5B4398F921DA56EA009B3E72 /* GermanCars.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -181,21 +180,6 @@
 				5B4398D121DA183D009B3E72 /* FactoryCars.swift */,
 			);
 			path = ModelAutoShop;
-			sourceTree = "<group>";
-		};
-		5B4398D221DA183D009B3E72 /* AutoModel */ = {
-			isa = PBXGroup;
-			children = (
-				5B4398D321DA183D009B3E72 /* ModelRepairParts */,
-			);
-			path = AutoModel;
-			sourceTree = "<group>";
-		};
-		5B4398D321DA183D009B3E72 /* ModelRepairParts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ModelRepairParts;
 			sourceTree = "<group>";
 		};
 		5B4398F121DA18E5009B3E72 /* RussianCar */ = {
@@ -418,9 +402,9 @@
 				5B4398F521DA48FC009B3E72 /* Mersedes.swift in Sources */,
 				5B4398ED21DA183D009B3E72 /* Kalina.swift in Sources */,
 				5B4398EE21DA183D009B3E72 /* XRay.swift in Sources */,
+				5B4398FA21DA56EA009B3E72 /* GermanCars.swift in Sources */,
 				5B4398D521DA183D009B3E72 /* AllDataCategory.swift in Sources */,
-				5B4398DD21DA183D009B3E72 /* Repairt.swift in Sources */,
-				5B4398DC21DA183D009B3E72 /* AutoShop.swift in Sources */,
+				5B4398DC21DA183D009B3E72 /* RussianCars.swift in Sources */,
 				5B4398D621DA183D009B3E72 /* TableCategoryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

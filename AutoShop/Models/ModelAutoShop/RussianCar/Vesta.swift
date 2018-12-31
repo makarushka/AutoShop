@@ -11,9 +11,11 @@ import UIKit
 
 
 class Vesta: Cars {
+    var category: Type = .russianCars
+    
     var countryDev: CountryDevelop = .russian
     
-    var avatarImage: UIImage = UIImage(named: "Vesta")!
+    var avatarImage: UIImage = UIImage(named: "Vesta") ?? UIImage(named: "noImage")!
     
     var name: String = "Веста"
     

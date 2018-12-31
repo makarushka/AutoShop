@@ -76,25 +76,16 @@
             <objects>
                 <collectionViewController storyboardIdentifier="AllData" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eut-mI-g1a" customClass="AllDataCategory" customModule="AutoShop" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Uwh-Yj-GO4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="564"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7LZ-Fw-wps">
-                            <size key="itemSize" width="124" height="124"/>
+                            <size key="itemSize" width="141" height="183"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                         </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="hc7-C9-Tvw" customClass="ItemsCell" customModule="AutoShop" customModuleProvider="target">
-                                <rect key="frame" x="20" y="0.0" width="124" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="124" height="124"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </view>
-                            </collectionViewCell>
-                        </cells>
+                        <cells/>
                         <connections>
                             <outlet property="dataSource" destination="eut-mI-g1a" id="n65-di-xUE"/>
                             <outlet property="delegate" destination="eut-mI-g1a" id="9WS-hx-vvW"/>
@@ -103,7 +94,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uTg-EF-DeJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1756" y="1483.8080959520241"/>
+            <point key="canvasLocation" x="1756" y="1483.3583208395803"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zhh-zL-H9A">
@@ -111,6 +102,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eKU-FO-oPX" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zhb-ZY-Cea">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

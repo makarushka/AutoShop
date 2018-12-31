@@ -11,6 +11,7 @@ import UIKit
 
 protocol Cars: class {
     var name: String {get}
+    var category: Type  {get}
     var weels: Int {get}
     var color: Color {get}
     var priceCount: Double {get}

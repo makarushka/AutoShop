@@ -11,9 +11,11 @@ import UIKit
 
 
 class XRay: Cars {
+    var category: Type = .russianCars
+    
     var countryDev: CountryDevelop = .russian
     
-    var avatarImage: UIImage = UIImage(named: "XRay")!
+    var avatarImage: UIImage = UIImage(named: "XRay") ?? UIImage(named: "noImage")!
     
     var name: String = "XRay"
     

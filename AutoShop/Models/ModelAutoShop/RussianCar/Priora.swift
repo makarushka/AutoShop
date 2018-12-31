@@ -11,9 +11,11 @@ import UIKit
 
 
 class Priora: Cars {
+    var category: Type = .russianCars
+    
     var countryDev: CountryDevelop = .russian
     
-    var avatarImage: UIImage = UIImage(named: "Priora")!
+    var avatarImage: UIImage = UIImage(named: "Priora") ?? UIImage(named: "noImage")!
     
     var name: String = "Приора"
     
