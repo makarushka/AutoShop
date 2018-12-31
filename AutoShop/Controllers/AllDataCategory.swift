@@ -23,15 +23,11 @@ class AllDataCategory: UICollectionViewController {
     
     
     func createUI() {
-        let createButton = UIBarButtonItem(title: "Создать", style: .plain, target: self, action: #selector(create))
-        self.navigationItem.rightBarButtonItem = createButton
+        
     }
     
     
-    @objc func create(){
-        let vc = NewReapirVC()
-       // self.navigationController?.pushViewController(vc, animated: true)
-    }
+    
 
     /*
     // MARK: - Navigation
