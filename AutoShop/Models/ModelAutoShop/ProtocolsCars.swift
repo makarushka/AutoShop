@@ -6,7 +6,7 @@
 //  Copyright © 2018 Yuriy. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 protocol Cars: class {
@@ -16,6 +16,8 @@ protocol Cars: class {
     var priceCount: Double {get}
     var horseCount: Double {get}
     var maxSpeed: Int {get}
+    var countryDev: CountryDevelop {get}
+    var avatarImage: UIImage {get}
 }
 
 enum Color: String {
@@ -29,4 +31,10 @@ enum Model: String {
     case priora = "Приора"
     case xray = "XRay"
     case vesta = "Веста"
+}
+
+
+enum CountryDevelop: String {
+    case russian = "Россия"
+    case german = "Германия"
 }

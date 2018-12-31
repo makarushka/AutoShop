@@ -6,11 +6,15 @@
 //  Copyright © 2018 Yuriy. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 
 class Vesta: Cars {
+    var countryDev: CountryDevelop = .russian
+    
+    var avatarImage: UIImage = UIImage(named: "Vesta")!
+    
     var name: String = "Веста"
     
     var weels: Int = 4

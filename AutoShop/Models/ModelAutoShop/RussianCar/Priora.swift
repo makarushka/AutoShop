@@ -1,17 +1,21 @@
 //
-//  CarsModel.swift
+//  Priora.swift
 //  AutoShop
 //
 //  Created by Yuriy on 30/12/2018.
 //  Copyright © 2018 Yuriy. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 
-class Kalina: Cars {
-    var name: String = "Калина"
+class Priora: Cars {
+    var countryDev: CountryDevelop = .russian
+    
+    var avatarImage: UIImage = UIImage(named: "Priora")!
+    
+    var name: String = "Приора"
     
     var weels: Int = 4
     
@@ -30,6 +34,3 @@ class Kalina: Cars {
         self.priceCount = priceCount
     }
 }
-
-
-

@@ -171,11 +171,8 @@
 		5B4398CB21DA183D009B3E72 /* ModelAutoShop */ = {
 			isa = PBXGroup;
 			children = (
+				5B4398F121DA18E5009B3E72 /* RussianCar */,
 				5B4398CC21DA183D009B3E72 /* ProtocolsCars.swift */,
-				5B4398CD21DA183D009B3E72 /* Priora.swift */,
-				5B4398CE21DA183D009B3E72 /* Kalina.swift */,
-				5B4398CF21DA183D009B3E72 /* XRay.swift */,
-				5B4398D021DA183D009B3E72 /* Vesta.swift */,
 				5B4398D121DA183D009B3E72 /* FactoryCars.swift */,
 			);
 			path = ModelAutoShop;
@@ -194,6 +191,17 @@
 			children = (
 			);
 			path = ModelRepairParts;
+			sourceTree = "<group>";
+		};
+		5B4398F121DA18E5009B3E72 /* RussianCar */ = {
+			isa = PBXGroup;
+			children = (
+				5B4398CE21DA183D009B3E72 /* Kalina.swift */,
+				5B4398CF21DA183D009B3E72 /* XRay.swift */,
+				5B4398D021DA183D009B3E72 /* Vesta.swift */,
+				5B4398CD21DA183D009B3E72 /* Priora.swift */,
+			);
+			path = RussianCar;
 			sourceTree = "<group>";
 		};
 		5BB2852921D82E2200D84D97 = {
