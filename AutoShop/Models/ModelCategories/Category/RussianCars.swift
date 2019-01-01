@@ -15,8 +15,8 @@ class RussianCars: Category {
     
     var name: String = "Машины из России"
     
-    var typeCategory: Type = .russianCars
-    var image: UIImage = UIImage(named: "AutoShop") ?? UIImage(named: "noImage")!
+    var typeCategory: CountryDevelop = .russian
+    var image: UIImage = UIImage(named: "RussianCars") ?? UIImage(named: "noImage")!
     
     private init() {}
     

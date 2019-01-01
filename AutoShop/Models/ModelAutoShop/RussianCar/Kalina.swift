@@ -11,13 +11,12 @@ import UIKit
 
 
 class Kalina: Cars {
-    var category: Type = .russianCars
     
     var countryDev: CountryDevelop = .russian
     
-    var avatarImage: UIImage = UIImage(named: "Kalina") ?? UIImage(named: "noImage")!
+    var name: String = "Kalina"
     
-    var name: String = "Калина"
+    var description: String = "Калина"
     
     var weels: Int = 4
     

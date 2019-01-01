@@ -11,13 +11,12 @@ import UIKit
 
 
 class XRay: Cars {
-    var category: Type = .russianCars
     
     var countryDev: CountryDevelop = .russian
     
-    var avatarImage: UIImage = UIImage(named: "XRay") ?? UIImage(named: "noImage")!
-    
     var name: String = "XRay"
+    
+    var description: String = "XRay"
     
     var weels: Int = 4
     

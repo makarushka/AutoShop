@@ -39,7 +39,7 @@ extension TableCategoryVC {
         let indexPath = self.tableView.indexPathForSelectedRow
         if segue.identifier == "data" {
             if let vc = segue.destination as? AllDataCategory {
-                vc.typeViewer = DataSource.shared.allCaregory[(indexPath?.row)!].typeCategory
+                vc.countryDevelop = DataSource.shared.allCaregory[(indexPath?.row)!].typeCategory
             }
         }
     }

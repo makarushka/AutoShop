@@ -25,6 +25,8 @@
 		5B4398F521DA48FC009B3E72 /* Mersedes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398F321DA48FC009B3E72 /* Mersedes.swift */; };
 		5B4398F621DA48FC009B3E72 /* Audi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398F421DA48FC009B3E72 /* Audi.swift */; };
 		5B4398FA21DA56EA009B3E72 /* GermanCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398F921DA56EA009B3E72 /* GermanCars.swift */; };
+		5B4398FC21DBC82C009B3E72 /* JapanCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398FB21DBC82C009B3E72 /* JapanCars.swift */; };
+		5B4398FF21DBCABD009B3E72 /* Toyota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398FE21DBCABD009B3E72 /* Toyota.swift */; };
 		5BB2853621D82E2200D84D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB2853521D82E2200D84D97 /* AppDelegate.swift */; };
 		5BB2853B21D82E2200D84D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853921D82E2200D84D97 /* Main.storyboard */; };
 		5BB2853D21D82E2400D84D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853C21D82E2400D84D97 /* Assets.xcassets */; };
@@ -69,6 +71,8 @@
 		5B4398F321DA48FC009B3E72 /* Mersedes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mersedes.swift; sourceTree = "<group>"; };
 		5B4398F421DA48FC009B3E72 /* Audi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audi.swift; sourceTree = "<group>"; };
 		5B4398F921DA56EA009B3E72 /* GermanCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GermanCars.swift; sourceTree = "<group>"; };
+		5B4398FB21DBC82C009B3E72 /* JapanCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapanCars.swift; sourceTree = "<group>"; };
+		5B4398FE21DBCABD009B3E72 /* Toyota.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toyota.swift; sourceTree = "<group>"; };
 		5BB2853221D82E2200D84D97 /* AutoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB2853521D82E2200D84D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB2853A21D82E2200D84D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 			children = (
 				5B4398B821DA183D009B3E72 /* RussianCars.swift */,
 				5B4398F921DA56EA009B3E72 /* GermanCars.swift */,
+				5B4398FB21DBC82C009B3E72 /* JapanCars.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			children = (
 				5B4398F121DA18E5009B3E72 /* RussianCar */,
 				5B4398F221DA48FC009B3E72 /* GermanCar */,
+				5B4398FD21DBCABD009B3E72 /* JapanCars */,
 				5B4398CC21DA183D009B3E72 /* ProtocolsCars.swift */,
 				5B4398D121DA183D009B3E72 /* FactoryCars.swift */,
 			);
@@ -200,6 +206,14 @@
 				5B4398F421DA48FC009B3E72 /* Audi.swift */,
 			);
 			path = GermanCar;
+			sourceTree = "<group>";
+		};
+		5B4398FD21DBCABD009B3E72 /* JapanCars */ = {
+			isa = PBXGroup;
+			children = (
+				5B4398FE21DBCABD009B3E72 /* Toyota.swift */,
+			);
+			path = JapanCars;
 			sourceTree = "<group>";
 		};
 		5BB2852921D82E2200D84D97 = {
@@ -403,7 +417,9 @@
 				5B4398ED21DA183D009B3E72 /* Kalina.swift in Sources */,
 				5B4398EE21DA183D009B3E72 /* XRay.swift in Sources */,
 				5B4398FA21DA56EA009B3E72 /* GermanCars.swift in Sources */,
+				5B4398FF21DBCABD009B3E72 /* Toyota.swift in Sources */,
 				5B4398D521DA183D009B3E72 /* AllDataCategory.swift in Sources */,
+				5B4398FC21DBC82C009B3E72 /* JapanCars.swift in Sources */,
 				5B4398DC21DA183D009B3E72 /* RussianCars.swift in Sources */,
 				5B4398D621DA183D009B3E72 /* TableCategoryVC.swift in Sources */,
 			);

@@ -27,6 +27,8 @@ class FactoryCars {
             return Mersedes(color: color, hourseCount: hourseCount, maxSpeed: maxSpeed, priceCount: priceCount)
         case .audi:
             return Audi(color: color, hourseCount: hourseCount, maxSpeed: maxSpeed, priceCount: priceCount)
+        case .toyota:
+            return Toyota(color: color, hourseCount: hourseCount, maxSpeed: maxSpeed, priceCount: priceCount)
         }
     }
     

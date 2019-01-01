@@ -12,11 +12,6 @@ import UIKit
 
 protocol Category {
     var name: String {get}
-    var typeCategory: Type {get}
+    var typeCategory: CountryDevelop {get}
     var image: UIImage {get}
-}
-
-enum Type: String {
-    case russianCars = "Машины из России"
-    case germanCars = "Машины из Германии"
 }

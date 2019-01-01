@@ -11,20 +11,31 @@ import UIKit
 
 protocol Cars: class {
     var name: String {get}
-    var category: Type  {get}
+    var description: String {get}
     var weels: Int {get}
     var color: Color {get}
     var priceCount: Double {get}
     var horseCount: Double {get}
     var maxSpeed: Int {get}
     var countryDev: CountryDevelop {get}
-    var avatarImage: UIImage {get}
+}
+
+
+
+extension Cars {
+    var vinNumber: Int {
+        return Int.random(in: 1_000_000...5_000_000)
+    }
+    
+    var avatarImage: UIImage {
+        return UIImage(named: "\(name + color.rawValue)") ?? UIImage(named: "noImage")!
+    }
 }
 
 enum Color: String {
-    case white = "Белый"
-    case black = "Черный"
-    case orange = "Оранжевый"
+    case white = "White"
+    case black = "Black"
+    case orange = "Orange"
 }
 
 enum Model: String {
@@ -34,10 +45,12 @@ enum Model: String {
     case vesta = "Веста"
     case mersedes = "Мерседес"
     case audi = "Ауди"
+    case toyota = "Тойота"
 }
 
 
 enum CountryDevelop: String {
     case russian = "Россия"
     case german = "Германия"
+    case japan = "Япония"
 }

@@ -10,21 +10,15 @@ import UIKit
 
 class AllDataCategory: UICollectionViewController {
 
-    var typeViewer: Type?
+    var countryDevelop: CountryDevelop?
     var dataFirst = [Cars]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.dataFirst = DataSource.shared.allCars.filter() {$0.category == self.typeViewer}
+        
+        self.dataFirst = DataSource.shared.allCars.filter() {$0.countryDev == self.countryDevelop}
 
         let nib = UINib(nibName: "ItemsCell", bundle: Bundle.main)
         self.collectionView.register(nib, forCellWithReuseIdentifier: "cell")
-        print(self.typeViewer)
-        createUI()
-    }
-    
-    
-    func createUI() {
-        
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -35,7 +29,7 @@ class AllDataCategory: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? ItemsCell
     
         cell?.avatarImage.image = self.dataFirst[indexPath.row].avatarImage
-        cell?.textLabel.text = self.dataFirst[indexPath.row].name
+        cell?.textLabel.text = self.dataFirst[indexPath.row].description
         cell?.priceCount.text = String(self.dataFirst[indexPath.row].priceCount)
     
         return cell!
