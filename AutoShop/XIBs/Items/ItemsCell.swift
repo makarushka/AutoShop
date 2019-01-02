@@ -13,9 +13,9 @@ class ItemsCell: UICollectionViewCell {
     @IBOutlet weak var avatarImage: UIImageView!
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var priceCount: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
 }

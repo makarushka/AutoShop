@@ -15,7 +15,7 @@ class AllDataCategory: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.dataFirst = DataSource.shared.allCars.filter() {$0.countryDev == self.countryDevelop}
+        self.dataFirst = DataSource.shared.myCars.filter() {$0.countryDev == self.countryDevelop}
 
         let nib = UINib(nibName: "ItemsCell", bundle: Bundle.main)
         self.collectionView.register(nib, forCellWithReuseIdentifier: "cell")

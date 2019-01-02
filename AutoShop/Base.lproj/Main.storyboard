@@ -10,7 +10,77 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--My ProfileVC-->
+        <scene sceneID="FfX-4K-P8L">
+            <objects>
+                <viewController id="HkX-eE-Mdz" customClass="MyProfileVC" customModule="AutoShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FVu-tg-haO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="eMI-gP-r9o">
+                                <rect key="frame" x="67" y="88" width="240" height="247"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fullname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="239-2D-PW6">
+                                <rect key="frame" x="16" y="343" width="343" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="2iq-Ya-bmh"/>
+                                    <constraint firstAttribute="height" constant="36" id="XJd-9Z-ZcI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="myMoney" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhL-ks-h0R">
+                                <rect key="frame" x="22" y="387" width="343" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="cPE-E0-nK1"/>
+                                    <constraint firstAttribute="height" constant="36" id="pba-j8-TSc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="moneySpent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izL-wX-3R3">
+                                <rect key="frame" x="22" y="431" width="343" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="HFM-Sp-TTY"/>
+                                    <constraint firstAttribute="height" constant="36" id="iXh-1a-aZT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="s0L-lW-JIV" firstAttribute="trailing" secondItem="eMI-gP-r9o" secondAttribute="trailing" constant="68" id="1lg-qS-j8U"/>
+                            <constraint firstItem="eMI-gP-r9o" firstAttribute="leading" secondItem="s0L-lW-JIV" secondAttribute="leading" constant="67" id="4tm-AD-2jd"/>
+                            <constraint firstItem="izL-wX-3R3" firstAttribute="top" secondItem="dhL-ks-h0R" secondAttribute="bottom" constant="8" id="EGO-yh-jaB"/>
+                            <constraint firstItem="eMI-gP-r9o" firstAttribute="top" secondItem="s0L-lW-JIV" secondAttribute="top" constant="24" id="NEy-iJ-s5I"/>
+                            <constraint firstItem="239-2D-PW6" firstAttribute="top" secondItem="eMI-gP-r9o" secondAttribute="bottom" constant="8" id="dgF-oL-KPm"/>
+                            <constraint firstItem="izL-wX-3R3" firstAttribute="leading" secondItem="s0L-lW-JIV" secondAttribute="leading" constant="22" id="ehh-ti-MuR"/>
+                            <constraint firstItem="s0L-lW-JIV" firstAttribute="trailing" secondItem="239-2D-PW6" secondAttribute="trailing" constant="16" id="f6d-JO-dwT"/>
+                            <constraint firstItem="s0L-lW-JIV" firstAttribute="trailing" secondItem="dhL-ks-h0R" secondAttribute="trailing" constant="10" id="iQ6-aI-D5a"/>
+                            <constraint firstItem="dhL-ks-h0R" firstAttribute="top" secondItem="239-2D-PW6" secondAttribute="bottom" constant="8" id="lKi-66-vij"/>
+                            <constraint firstItem="dhL-ks-h0R" firstAttribute="leading" secondItem="s0L-lW-JIV" secondAttribute="leading" constant="22" id="nYx-te-prO"/>
+                            <constraint firstItem="s0L-lW-JIV" firstAttribute="trailing" secondItem="izL-wX-3R3" secondAttribute="trailing" constant="10" id="qbB-HP-byh"/>
+                            <constraint firstItem="s0L-lW-JIV" firstAttribute="bottom" secondItem="izL-wX-3R3" secondAttribute="bottom" constant="200" id="vBP-Yy-j20"/>
+                            <constraint firstItem="239-2D-PW6" firstAttribute="leading" secondItem="s0L-lW-JIV" secondAttribute="leading" constant="16" id="wBd-u1-avH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="s0L-lW-JIV"/>
+                    </view>
+                    <connections>
+                        <outlet property="moneySpent" destination="izL-wX-3R3" id="NT3-AG-hMg"/>
+                        <outlet property="myFullName" destination="239-2D-PW6" id="XDJ-KA-cGA"/>
+                        <outlet property="myMoney" destination="dhL-ks-h0R" id="vxZ-tS-Tny"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6PF-W7-L9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952.79999999999995" y="78.710644677661179"/>
+        </scene>
+        <!--Мой гараж-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoShop" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,7 +104,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oD2-KA-mf8"/>
+                    <navigationItem key="navigationItem" title="Мой гараж" id="oD2-KA-mf8">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="iqJ-H0-jAQ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vCJ-yH-wUZ">
+                                <rect key="frame" x="269" y="4" width="90" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="UserImage"/>
+                                <connections>
+                                    <action selector="viewUserScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QI1-vq-af1"/>
+                                    <segue destination="HkX-eE-Mdz" kind="show" id="8yb-8C-2v5"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,7 +128,7 @@
             <objects>
                 <tableViewController id="HMU-gb-zPT" customClass="TableCategoryVC" customModule="AutoShop" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="z2s-7H-IaG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="564"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -115,4 +198,8 @@
             <point key="canvasLocation" x="133.59999999999999" y="792.95352323838085"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="UserImage" width="36" height="36"/>
+        <image name="avatar" width="1200" height="1200"/>
+    </resources>
 </document>

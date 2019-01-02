@@ -20,13 +20,13 @@ class MainConfig {
         let mersedes1 = FactoryCars.shared.creatorCars(typeCars: .mersedes, hourseCount: 350, color: .black, maxSpeed: 270, priceCount: 1_300_000)
         let audi1 = FactoryCars.shared.creatorCars(typeCars: .audi, hourseCount: 280, color: .orange, maxSpeed: 250, priceCount: 1_200_000)
         let toyota1 = FactoryCars.shared.creatorCars(typeCars: .toyota, hourseCount: 230, color: .orange, maxSpeed: 250, priceCount: 1_200_300)
-        DataSource.shared.allCars.append(kalina1)
-        DataSource.shared.allCars.append(vesta1)
-        DataSource.shared.allCars.append(mersedes1)
-        DataSource.shared.allCars.append(audi1)
-        DataSource.shared.allCars.append(toyota1)
+        DataSource.shared.myCars.append(kalina1)
+        DataSource.shared.myCars.append(vesta1)
+        DataSource.shared.myCars.append(mersedes1)
+        DataSource.shared.myCars.append(audi1)
+        DataSource.shared.myCars.append(toyota1)
         
-        DataSource.shared.allCars.forEach() {print("Машина \($0.description), с цветом \($0.color.rawValue) относится к \($0.countryDev.rawValue) и имеет VIN номер - \($0.vinNumber)")
+        DataSource.shared.myCars.forEach() {print("Машина \($0.description), с цветом \($0.color.rawValue) относится к \($0.countryDev.rawValue) и имеет VIN номер - \($0.vinNumber)")
             print("\($0.color)")
         }
         

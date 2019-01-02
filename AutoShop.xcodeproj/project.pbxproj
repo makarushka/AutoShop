@@ -27,6 +27,8 @@
 		5B4398FA21DA56EA009B3E72 /* GermanCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398F921DA56EA009B3E72 /* GermanCars.swift */; };
 		5B4398FC21DBC82C009B3E72 /* JapanCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398FB21DBC82C009B3E72 /* JapanCars.swift */; };
 		5B4398FF21DBCABD009B3E72 /* Toyota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4398FE21DBCABD009B3E72 /* Toyota.swift */; };
+		5B43990221DCDF2E009B3E72 /* ProtocolUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B43990121DCDF2E009B3E72 /* ProtocolUser.swift */; };
+		5B55F9F721DD82B200F12AA7 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B55F9F621DD82B200F12AA7 /* MyProfileVC.swift */; };
 		5BB2853621D82E2200D84D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB2853521D82E2200D84D97 /* AppDelegate.swift */; };
 		5BB2853B21D82E2200D84D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853921D82E2200D84D97 /* Main.storyboard */; };
 		5BB2853D21D82E2400D84D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853C21D82E2400D84D97 /* Assets.xcassets */; };
@@ -73,6 +75,8 @@
 		5B4398F921DA56EA009B3E72 /* GermanCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GermanCars.swift; sourceTree = "<group>"; };
 		5B4398FB21DBC82C009B3E72 /* JapanCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapanCars.swift; sourceTree = "<group>"; };
 		5B4398FE21DBCABD009B3E72 /* Toyota.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toyota.swift; sourceTree = "<group>"; };
+		5B43990121DCDF2E009B3E72 /* ProtocolUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolUser.swift; sourceTree = "<group>"; };
+		5B55F9F621DD82B200F12AA7 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		5BB2853221D82E2200D84D97 /* AutoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB2853521D82E2200D84D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB2853A21D82E2200D84D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 				5B4398AA21DA183C009B3E72 /* ViewController.swift */,
 				5B4398AC21DA183C009B3E72 /* TableCategoryVC.swift */,
 				5B4398AB21DA183C009B3E72 /* AllDataCategory.swift */,
+				5B55F9F621DD82B200F12AA7 /* MyProfileVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		5B4398B421DA183C009B3E72 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5B43990021DCDF0C009B3E72 /* ModelUser */,
 				5B4398B521DA183D009B3E72 /* ModelCategories */,
 				5B4398CB21DA183D009B3E72 /* ModelAutoShop */,
 			);
@@ -214,6 +220,14 @@
 				5B4398FE21DBCABD009B3E72 /* Toyota.swift */,
 			);
 			path = JapanCars;
+			sourceTree = "<group>";
+		};
+		5B43990021DCDF0C009B3E72 /* ModelUser */ = {
+			isa = PBXGroup;
+			children = (
+				5B43990121DCDF2E009B3E72 /* ProtocolUser.swift */,
+			);
+			path = ModelUser;
 			sourceTree = "<group>";
 		};
 		5BB2852921D82E2200D84D97 = {
@@ -412,6 +426,7 @@
 				5B4398EF21DA183D009B3E72 /* Vesta.swift in Sources */,
 				5B4398D421DA183D009B3E72 /* ViewController.swift in Sources */,
 				5B4398D921DA183D009B3E72 /* MainConfig.swift in Sources */,
+				5B55F9F721DD82B200F12AA7 /* MyProfileVC.swift in Sources */,
 				5BB2853621D82E2200D84D97 /* AppDelegate.swift in Sources */,
 				5B4398F521DA48FC009B3E72 /* Mersedes.swift in Sources */,
 				5B4398ED21DA183D009B3E72 /* Kalina.swift in Sources */,
@@ -421,6 +436,7 @@
 				5B4398D521DA183D009B3E72 /* AllDataCategory.swift in Sources */,
 				5B4398FC21DBC82C009B3E72 /* JapanCars.swift in Sources */,
 				5B4398DC21DA183D009B3E72 /* RussianCars.swift in Sources */,
+				5B43990221DCDF2E009B3E72 /* ProtocolUser.swift in Sources */,
 				5B4398D621DA183D009B3E72 /* TableCategoryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,7 @@ import Foundation
 class DataSource {
     static let shared = DataSource()
     
-    var allCars: [Cars] = []
+    var myCars: [Cars] = []
     var allCaregory: [Category] = []
     private init(){}
 }
