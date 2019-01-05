@@ -30,6 +30,11 @@
 		5B55F9F721DD82B200F12AA7 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B55F9F621DD82B200F12AA7 /* MyProfileVC.swift */; };
 		5B55F9F921DD85C500F12AA7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B55F9F821DD85C500F12AA7 /* MainVC.swift */; };
 		5B657FA821E07D7D00A5074E /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B657FA721E07D7D00A5074E /* Readme.md */; };
+		5B657FAB21E080C800A5074E /* ProtocolRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B657FAA21E080C800A5074E /* ProtocolRepair.swift */; };
+		5B657FAE21E081DB00A5074E /* AudiDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B657FAD21E081DB00A5074E /* AudiDoor.swift */; };
+		5B657FB121E0844000A5074E /* AudiFender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B657FB021E0844000A5074E /* AudiFender.swift */; };
+		5B657FB321E0856200A5074E /* VestaFender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B657FB221E0856200A5074E /* VestaFender.swift */; };
+		5B657FB521E085A100A5074E /* VestaDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B657FB421E085A100A5074E /* VestaDoor.swift */; };
 		5BB2853621D82E2200D84D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB2853521D82E2200D84D97 /* AppDelegate.swift */; };
 		5BB2853B21D82E2200D84D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853921D82E2200D84D97 /* Main.storyboard */; };
 		5BB2853D21D82E2400D84D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853C21D82E2400D84D97 /* Assets.xcassets */; };
@@ -79,6 +84,11 @@
 		5B55F9F621DD82B200F12AA7 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		5B55F9F821DD85C500F12AA7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		5B657FA721E07D7D00A5074E /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		5B657FAA21E080C800A5074E /* ProtocolRepair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolRepair.swift; sourceTree = "<group>"; };
+		5B657FAD21E081DB00A5074E /* AudiDoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiDoor.swift; sourceTree = "<group>"; };
+		5B657FB021E0844000A5074E /* AudiFender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiFender.swift; sourceTree = "<group>"; };
+		5B657FB221E0856200A5074E /* VestaFender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VestaFender.swift; sourceTree = "<group>"; };
+		5B657FB421E085A100A5074E /* VestaDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VestaDoor.swift; sourceTree = "<group>"; };
 		5BB2853221D82E2200D84D97 /* AutoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB2853521D82E2200D84D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB2853A21D82E2200D84D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -187,11 +197,8 @@
 		5B4398CB21DA183D009B3E72 /* ModelAutoShop */ = {
 			isa = PBXGroup;
 			children = (
-				5B4398F121DA18E5009B3E72 /* RussianCar */,
-				5B4398F221DA48FC009B3E72 /* GermanCar */,
-				5B4398FD21DBCABD009B3E72 /* JapanCars */,
-				5B4398CC21DA183D009B3E72 /* ProtocolsCars.swift */,
-				5B4398D121DA183D009B3E72 /* FactoryCars.swift */,
+				5B657FA921E080A200A5074E /* ModelRepairs */,
+				5B657FB621E087AA00A5074E /* ModelCars */,
 			);
 			path = ModelAutoShop;
 			sourceTree = "<group>";
@@ -230,6 +237,46 @@
 				5B43990121DCDF2E009B3E72 /* ProtocolUser.swift */,
 			);
 			path = ModelUser;
+			sourceTree = "<group>";
+		};
+		5B657FA921E080A200A5074E /* ModelRepairs */ = {
+			isa = PBXGroup;
+			children = (
+				5B657FAF21E0842B00A5074E /* Fender */,
+				5B657FAC21E081B100A5074E /* Door */,
+				5B657FAA21E080C800A5074E /* ProtocolRepair.swift */,
+			);
+			path = ModelRepairs;
+			sourceTree = "<group>";
+		};
+		5B657FAC21E081B100A5074E /* Door */ = {
+			isa = PBXGroup;
+			children = (
+				5B657FAD21E081DB00A5074E /* AudiDoor.swift */,
+				5B657FB421E085A100A5074E /* VestaDoor.swift */,
+			);
+			path = Door;
+			sourceTree = "<group>";
+		};
+		5B657FAF21E0842B00A5074E /* Fender */ = {
+			isa = PBXGroup;
+			children = (
+				5B657FB021E0844000A5074E /* AudiFender.swift */,
+				5B657FB221E0856200A5074E /* VestaFender.swift */,
+			);
+			path = Fender;
+			sourceTree = "<group>";
+		};
+		5B657FB621E087AA00A5074E /* ModelCars */ = {
+			isa = PBXGroup;
+			children = (
+				5B4398F121DA18E5009B3E72 /* RussianCar */,
+				5B4398F221DA48FC009B3E72 /* GermanCar */,
+				5B4398FD21DBCABD009B3E72 /* JapanCars */,
+				5B4398CC21DA183D009B3E72 /* ProtocolsCars.swift */,
+				5B4398D121DA183D009B3E72 /* FactoryCars.swift */,
+			);
+			path = ModelCars;
 			sourceTree = "<group>";
 		};
 		5BB2852921D82E2200D84D97 = {
@@ -420,8 +467,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B657FAE21E081DB00A5074E /* AudiDoor.swift in Sources */,
 				5B4398DA21DA183D009B3E72 /* DataSource.swift in Sources */,
 				5B4398EC21DA183D009B3E72 /* Priora.swift in Sources */,
+				5B657FAB21E080C800A5074E /* ProtocolRepair.swift in Sources */,
 				5B4398DB21DA183D009B3E72 /* ProtocolCategory.swift in Sources */,
 				5B4398EB21DA183D009B3E72 /* ProtocolsCars.swift in Sources */,
 				5B4398D821DA183D009B3E72 /* ItemsCell.swift in Sources */,
@@ -431,8 +480,10 @@
 				5B4398D921DA183D009B3E72 /* MainConfig.swift in Sources */,
 				5B55F9F721DD82B200F12AA7 /* MyProfileVC.swift in Sources */,
 				5BB2853621D82E2200D84D97 /* AppDelegate.swift in Sources */,
+				5B657FB321E0856200A5074E /* VestaFender.swift in Sources */,
 				5B4398F521DA48FC009B3E72 /* Mersedes.swift in Sources */,
 				5B4398ED21DA183D009B3E72 /* Kalina.swift in Sources */,
+				5B657FB521E085A100A5074E /* VestaDoor.swift in Sources */,
 				5B4398EE21DA183D009B3E72 /* XRay.swift in Sources */,
 				5B4398FA21DA56EA009B3E72 /* GermanCars.swift in Sources */,
 				5B55F9F921DD85C500F12AA7 /* MainVC.swift in Sources */,
@@ -442,6 +493,7 @@
 				5B4398DC21DA183D009B3E72 /* RussianCars.swift in Sources */,
 				5B43990221DCDF2E009B3E72 /* ProtocolUser.swift in Sources */,
 				5B4398D621DA183D009B3E72 /* TableCategoryVC.swift in Sources */,
+				5B657FB121E0844000A5074E /* AudiFender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

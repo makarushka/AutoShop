@@ -13,6 +13,7 @@ class DataSource {
     static let shared = DataSource()
     
     var myCars: [Cars] = []
+    var myRepair: [RepairProduct] = []
     var allCaregory: [Category] = []
     private init(){}
 }
