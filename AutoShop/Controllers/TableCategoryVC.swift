@@ -10,10 +10,6 @@ import UIKit
 
 class TableCategoryVC: UITableViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
 }
 
 

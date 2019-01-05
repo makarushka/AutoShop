@@ -16,7 +16,7 @@ class Audi: Cars {
     
     var name: String = "Audi"
     
-    var description: String = "Audi"
+    var description: String = "Audi" //Описание
     
     var weels: Int = 4
     

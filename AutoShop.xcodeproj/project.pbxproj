@@ -29,6 +29,7 @@
 		5B43990221DCDF2E009B3E72 /* ProtocolUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B43990121DCDF2E009B3E72 /* ProtocolUser.swift */; };
 		5B55F9F721DD82B200F12AA7 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B55F9F621DD82B200F12AA7 /* MyProfileVC.swift */; };
 		5B55F9F921DD85C500F12AA7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B55F9F821DD85C500F12AA7 /* MainVC.swift */; };
+		5B657FA821E07D7D00A5074E /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B657FA721E07D7D00A5074E /* Readme.md */; };
 		5BB2853621D82E2200D84D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB2853521D82E2200D84D97 /* AppDelegate.swift */; };
 		5BB2853B21D82E2200D84D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853921D82E2200D84D97 /* Main.storyboard */; };
 		5BB2853D21D82E2400D84D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB2853C21D82E2400D84D97 /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		5B43990121DCDF2E009B3E72 /* ProtocolUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolUser.swift; sourceTree = "<group>"; };
 		5B55F9F621DD82B200F12AA7 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		5B55F9F821DD85C500F12AA7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		5B657FA721E07D7D00A5074E /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		5BB2853221D82E2200D84D97 /* AutoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB2853521D82E2200D84D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB2853A21D82E2200D84D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		5BB2852921D82E2200D84D97 = {
 			isa = PBXGroup;
 			children = (
+				5B657FA721E07D7D00A5074E /* Readme.md */,
 				5BB2853421D82E2200D84D97 /* AutoShop */,
 				5BB2854921D82E2400D84D97 /* AutoShopTests */,
 				5BB2855421D82E2400D84D97 /* AutoShopUITests */,
@@ -391,6 +394,7 @@
 				5B4398D721DA183D009B3E72 /* ItemsCell.xib in Resources */,
 				5BB2854021D82E2400D84D97 /* LaunchScreen.storyboard in Resources */,
 				5BB2853D21D82E2400D84D97 /* Assets.xcassets in Resources */,
+				5B657FA821E07D7D00A5074E /* Readme.md in Resources */,
 				5BB2853B21D82E2200D84D97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
